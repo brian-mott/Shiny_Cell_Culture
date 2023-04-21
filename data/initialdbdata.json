@@ -1,0 +1,382 @@
+{
+  "culturecontainers": [
+    {
+      "vessel": "6-well",
+      "perplate": 6,
+      "surfaceareacm2": 10,
+      "vitronectinml": 1.0,
+      "dpbsml": 2.0,
+      "edtaml": 1.0,
+      "completemediaml": 2.0,
+      "seedingdensity": 300000,
+      "cellsatconfluency": 1200000
+    },
+    {
+      "vessel": "12-well",
+      "perplate": 12,
+      "surfaceareacm2": 4,
+      "vitronectinml": 0.4,
+      "dpbsml": 1.0,
+      "edtaml": 0.4,
+      "completemediaml": 1.0,
+      "seedingdensity": 100000,
+      "cellsatconfluency": 500000
+    },
+    {
+      "vessel": "24-well",
+      "perplate": 24,
+      "surfaceareacm2": 2,
+      "vitronectinml": 0.2,
+      "dpbsml": 0.5,
+      "edtaml": 0.2,
+      "completemediaml": 0.5,
+      "seedingdensity": 50000,
+      "cellsatconfluency": 240000
+    },
+    {
+      "vessel": "35-mm",
+      "perplate": 1,
+      "surfaceareacm2": 10,
+      "vitronectinml": 1.0,
+      "dpbsml": 2.0,
+      "edtaml": 1.0,
+      "completemediaml": 2.0,
+      "seedingdensity": 300000,
+      "cellsatconfluency": 1200000
+    },
+    {
+      "vessel": "60-mm",
+      "perplate": 1,
+      "surfaceareacm2": 20,
+      "vitronectinml": 2.0,
+      "dpbsml": 4.0,
+      "edtaml": 2.0,
+      "completemediaml": 4.0,
+      "seedingdensity": 800000,
+      "cellsatconfluency": 3200000
+    },
+    {
+      "vessel": "100-mm",
+      "perplate": 1,
+      "surfaceareacm2": 60,
+      "vitronectinml": 6.0,
+      "dpbsml": 12.0,
+      "edtaml": 6.0,
+      "completemediaml": 12.0,
+      "seedingdensity": 2200000,
+      "cellsatconfluency": 8800000
+    },
+    {
+      "vessel": "T-25",
+      "perplate": 1,
+      "surfaceareacm2": 25,
+      "vitronectinml": 2.5,
+      "dpbsml": 4.5,
+      "edtaml": 2.5,
+      "completemediaml": 4.5,
+      "seedingdensity": 700000,
+      "cellsatconfluency": 2800000
+    },
+    {
+      "vessel": "T-75",
+      "perplate": 1,
+      "surfaceareacm2": 75,
+      "vitronectinml": 7.5,
+      "dpbsml": 15.0,
+      "edtaml": 8.0,
+      "completemediaml": 15.0,
+      "seedingdensity": 2100000,
+      "cellsatconfluency": 8400000
+    }
+  ],
+
+  "keydaystable": [
+    { "keyday": 5, "notes": "Last Essential Day Day" },
+    { "keyday": 6, "notes": "First Media B Day" },
+    { "keyday": 16, "notes": "Start every other day media changes" },
+    { "keyday": 25, "notes": "Start Growth Factor 3 + Growth Factor 4" },
+    { "keyday": 30, "notes": "QC" },
+    { "keyday": 43, "notes": "Only Media B, change every 3-4 days" },
+    { "keyday": 47, "notes": "First Treatment" },
+    { "keyday": 48, "notes": "Second Treatment" },
+    { "keyday": 49, "notes": "Third Treatment" },
+    { "keyday": 50, "notes": "Collect" },
+    { "keyday": 80, "notes": "Collect" },
+    { "keyday": 120, "notes": "Collect" },
+    { "keyday": 24, "notes": "Last day Growth Factor 1 + Growth Factor 2" },
+    { "keyday": 150, "notes": "Collect" }
+  ],
+
+  "mediachange": [
+    {"day": 1, "change": "No"},
+    {"day": 2, "change": "Yes"},
+    {"day": 3, "change": "Yes"},
+    {"day": 4, "change": "Yes"},
+    {"day": 5, "change": "Yes"},
+    {"day": 6, "change": "Yes"},
+    {"day": 7, "change": "Yes"},
+    {"day": 8, "change": "Yes"},
+    {"day": 9, "change": "Yes"},
+    {"day": 10, "change": "Yes"},
+    {"day": 11, "change": "Yes"},
+    {"day": 12, "change": "Yes"},
+    {"day": 13, "change": "Yes"},
+    {"day": 14, "change": "Yes"},
+    {"day": 15, "change": "Yes"},
+    {"day": 16, "change": "No"},
+    {"day": 17, "change": "Yes"},
+    {"day": 18, "change": "No"},
+    {"day": 19, "change": "Yes"},
+    {"day": 20, "change": "No"},
+    {"day": 21, "change": "Yes"},
+    {"day": 22, "change": "No"},
+    {"day": 23, "change": "Yes"},
+    {"day": 24, "change": "No"},
+    {"day": 25, "change": "Yes"},
+    {"day": 26, "change": "No"},
+    {"day": 27, "change": "Yes"},
+    {"day": 28, "change": "No"},
+    {"day": 29, "change": "Yes"},
+    {"day": 30, "change": "No"},
+    {"day": 31, "change": "Yes"},
+    {"day": 32, "change": "No"},
+    {"day": 33, "change": "Yes"},
+    {"day": 34, "change": "No"},
+    {"day": 35, "change": "Yes"},
+    {"day": 36, "change": "No"},
+    {"day": 37, "change": "Yes"},
+    {"day": 38, "change": "No"},
+    {"day": 39, "change": "Yes"},
+    {"day": 40, "change": "No"},
+    {"day": 41, "change": "Yes"},
+    {"day": 42, "change": "No"},
+    {"day": 43, "change": "No"},
+    {"day": 44, "change": "Yes"},
+    {"day": 45, "change": "No"},
+    {"day": 46, "change": "No"},
+    {"day": 47, "change": "Yes"},
+    {"day": 48, "change": "No"},
+    {"day": 49, "change": "No"},
+    {"day": 50, "change": "Yes"},
+    {"day": 51, "change": "No"},
+    {"day": 52, "change": "No"},
+    {"day": 53, "change": "Yes"},
+    {"day": 54, "change": "No"},
+    {"day": 55, "change": "No"},
+    {"day": 56, "change": "Yes"},
+    {"day": 57, "change": "No"},
+    {"day": 58, "change": "No"},
+    {"day": 59, "change": "Yes"},
+    {"day": 60, "change": "No"},
+    {"day": 61, "change": "No"},
+    {"day": 62, "change": "Yes"},
+    {"day": 63, "change": "No"},
+    {"day": 64, "change": "No"},
+    {"day": 65, "change": "Yes"},
+    {"day": 66, "change": "No"},
+    {"day": 67, "change": "No"},
+    {"day": 68, "change": "Yes"},
+    {"day": 69, "change": "No"},
+    {"day": 70, "change": "No"},
+    {"day": 71, "change": "Yes"},
+    {"day": 72, "change": "No"},
+    {"day": 73, "change": "No"},
+    {"day": 74, "change": "Yes"},
+    {"day": 75, "change": "No"},
+    {"day": 76, "change": "No"},
+    {"day": 77, "change": "Yes"},
+    {"day": 78, "change": "No"},
+    {"day": 79, "change": "No"},
+    {"day": 80, "change": "Yes"},
+    {"day": 81, "change": "No"},
+    {"day": 82, "change": "No"},
+    {"day": 83, "change": "Yes"},
+    {"day": 84, "change": "No"},
+    {"day": 85, "change": "No"},
+    {"day": 86, "change": "Yes"},
+    {"day": 87, "change": "No"},
+    {"day": 88, "change": "No"},
+    {"day": 89, "change": "Yes"},
+    {"day": 90, "change": "No"}
+  ],
+
+  "mediareagents": [
+    {
+    "component": "Essential Basal",
+    "stock": 1,
+    "unit": "mL",
+    "daystart": -6,
+    "dayend": -1,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Essential Supplement",
+    "stock": 50,
+    "unit": "uL",
+    "daystart": -6,
+    "dayend": -1,
+    "mediasubtract": 0
+    },
+    {
+    "component": "D-2 Reagent",
+    "stock": 100,
+    "unit": "uL",
+    "daystart": -2,
+    "dayend": -2,
+    "mediasubtract": 0
+    },
+    {
+    "component": "D-1 Reagent",
+    "stock": 5000,
+    "unit": "uL",
+    "daystart": -1,
+    "dayend": -1,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Another Basal",
+    "stock": 1,
+    "unit": "mL",
+    "daystart": 0,
+    "dayend": 5,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Reagent A)",
+    "stock": 2500,
+    "unit": "uL",
+    "daystart": 0,
+    "dayend": 5,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Reagent B",
+    "stock": 5000,
+    "unit": "uL",
+    "daystart": 0,
+    "dayend": 5,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Reagent C (Optional)",
+    "stock": 5000,
+    "unit": "uL",
+    "daystart": 0,
+    "dayend": 5,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Media B",
+    "stock": 1,
+    "unit": "mL",
+    "daystart": 6,
+    "dayend": 365,
+    "mediasubtract": 1
+    },
+    {
+    "component": "Antibiotic",
+    "stock": 100,
+    "unit": "uL",
+    "daystart": 6,
+    "dayend": 365,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Supplement",
+    "stock": 50,
+    "unit": "uL",
+    "daystart": 6,
+    "dayend": 365,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Supplement B",
+    "stock": 100,
+    "unit": "uL",
+    "daystart": 6,
+    "dayend": 365,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Growth Factor A",
+    "stock": 5000,
+    "unit": "uL",
+    "daystart": 6,
+    "dayend": 24,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Growth Factor B",
+    "stock": 5000,
+    "unit": "uL",
+    "daystart": 6,
+    "dayend": 24,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Growth Factor C",
+    "stock": 5000,
+    "unit": "uL",
+    "daystart": 25,
+    "dayend": 42,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Growth Factor D",
+    "stock": 5000,
+    "unit": "uL",
+    "daystart": 25,
+    "dayend": 42,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Antifungal",
+    "stock": 500,
+    "unit": "uL",
+    "daystart": -4,
+    "dayend": 5,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Vitronectin",
+    "stock": 200,
+    "unit": "uL",
+    "daystart": -4,
+    "dayend": -4,
+    "mediasubtract": 0
+    },
+    {
+    "component": "Vitronectin PBS",
+    "stock": 2,
+    "unit": "mL",
+    "daystart": -4,
+    "dayend": -4,
+    "mediasubtract": 0
+    }
+  ],
+
+  "mediavolume": [
+    {"volume": 12, "daystart": 0, "dayend": 24},
+    {"volume": 15, "daystart": 25, "dayend": 42},
+    {"volume": 18, "daystart": 43, "dayend": 365}
+  ],
+
+  "culturestartdates": [
+    {"batch": 1, "day-2": "2023-02-01", "day-1": "2023-02-02", "day0": "2023-02-03", "plates": 3},
+    {"batch": 2, "day-2": "2023-03-01", "day-1": "2023-03-02", "day0": "2023-03-03", "plates": 5},
+    {"batch": 3, "day-2": "2023-04-01", "day-1": "2023-04-02", "day0": "2023-04-03", "plates": 2}
+  ],
+
+  "plateinventory": [
+    {"batch": 1, "plate": 1, "startdateday0": "2023-02-03", "enddate": null},
+    {"batch": 1, "plate": 2, "startdateday0": "2023-02-03", "enddate": "2023-04-15"},
+    {"batch": 1, "plate": 3, "startdateday0": "2023-02-03", "enddate": null},
+    {"batch": 2, "plate": 1, "startdateday0": "2023-03-03", "enddate": null},
+    {"batch": 2, "plate": 2, "startdateday0": "2023-03-03", "enddate": "2023-03-24"},
+    {"batch": 2, "plate": 3, "startdateday0": "2023-03-03", "enddate": null},
+    {"batch": 2, "plate": 4, "startdateday0": "2023-03-03", "enddate": null},
+    {"batch": 2, "plate": 5, "startdateday0": "2023-03-03", "enddate": null},
+    {"batch": 3, "plate": 1, "startdateday0": "2023-04-03", "enddate": null},
+    {"batch": 3, "plate": 2, "startdateday0": "2023-04-03", "enddate": null}
+  ]
+}
